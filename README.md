@@ -5,6 +5,21 @@
 1. 串号进程内自增长  key(时间)，value(串号)，单进程最大支持每秒2^10
 1. worker id在lua配置文件中指定
 
+## 安装和启动
+
+Depends:
+
+* [openresty](http://openresty.org)
+* [redis](https://redis.io/)
+
+启动
+```
+git clone https://github.com/Kong-Study-Group/short_url.git
+cd short_url
+./scripts/startup.sh
+```
+
+
 ## API文档
 
 ### 创建短链
