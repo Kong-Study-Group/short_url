@@ -9,7 +9,7 @@
 
 Depends:
 
-* [openresty](http://openresty.org)
+* [openresty](http://openresty.org/en/installation.html)
 * [redis](https://redis.io/)
 
 启动
