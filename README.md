@@ -31,6 +31,9 @@ cd short_url
   * longurl = "http://www.baidu.com"
 * 返回
   * {"status":0,"tinyurl":"AbCDe","longurl":"http://www.baidu.com""err_msg":""}
+ 
+* curl
+` curl -d 'longurl=http://www.baidu.com' 'http://127.0.0.1:10782/short_url/v1/short_urls'`
 
 ### 还原短链
 
@@ -38,3 +41,6 @@ cd short_url
   * GET /short_url/v1/short_urls?tinyurl=AbCDe
 * 返回
   * {"status":0,"longurl":"http://www.baidu.com","tinyurl":"AbCDe"}
+  
+* curl
+`curl 'http://127.0.0.1:10782/short_url/v1/short_urls?tinyurl=3cqbihUH'`
