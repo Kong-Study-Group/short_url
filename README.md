@@ -11,6 +11,7 @@ Depends:
 
 * [openresty](http://openresty.org/en/installation.html)
 * [redis](https://redis.io/)
+* [lua-resty-http](https://github.com/pintsized/lua-resty-http)
 
 启动
 ```
